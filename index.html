@@ -15,104 +15,171 @@
 		<!-- Google Text Link -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Roboto:ital,wght@0,300;1,300;1,500&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
 		<title>Capstone #1</title>
 	</head>
 
 	<body class="bg-image">
 		<!-- Nav Start -->
-		<!-- <nav class="navbar" style="background-color: #e3f2fd;">
-		  <nav class="navbar sticky-top nav-text">
-		  <div>
-		    <a class="navbar-brand" href="#landing">Landing</a>
-		    <a class="navbar-brand" href="#project">Project</a>
-		    <a class="navbar-brand" href="#contact">Contact</a>
-		    <a class="navbar-brand" href="#tools">Tools</a>
-		  </div>
-		</nav>
-		</nav> -->
-
-		<nav class="navbar navbar-expand-lg bg-primary">
+		<nav class="navbar navbar-expand-md bg-primary">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="#">Ava Lovelace</a>
+				<a class="navbar-brand" href="#landing">Landing</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav  ms-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="#">About Me</a>
+							<a class="nav-link" href="#project">Project</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Projects</a>
+							<a class="nav-link" href="#contact">Contact</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Tools</a>
+							<a class="nav-link" href="#tools">Tools</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</nav>
-
 		<!-- Nav End -->
+		<!-- Landing Start -->
 		<section id="landing" class="container-fluid my-5 py-5">
-			<div>
+			<div class="ps-3">
 				<h1>Lloyd Carlo G. Pacomo</h1>
 				<h3>Full-stack Web Developer</h3>
 			</div>			
 		</section>
+		<!-- Landing End -->
+		<!-- Project Start -->
 
 		<section id="project" class="container-fluid my-5 py-5">
-			<div>
-				
+			<h2 class="text-center">Project</h2>
+			<div id="carouselExampleIndicators" class="carousel slide">
+			  <div class="carousel-indicators">
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			  </div>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			    	<h3 class="text-center fomt-weight-bolder">Album Template</h3>
+			      	<img src="./image/album.png" class="d-block w-50 mx-auto" alt="album-template">
+
+			    </div>
+			    <div class="carousel-item">
+			    	<h3 class="text-center fomt-weight-bolder">Pricing Template</h3>
+			      	<img src="./image/pricing.png" class="d-block w-50 mx-auto" alt="pricing-template">
+			    </div>
+			    <div class="carousel-item">
+			    	<h3 class="text-center fomt-weight-bolder">Checkout Template</h3>
+			      	<img src="./image/checkout.png" class="d-block w-50 mx-auto" alt="checkout-template">
+			    </div>
+			  </div>
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Next</span>
+			  </button>
 			</div>
 		</section>
+		<!-- Project End -->
+		<!-- Tools Start -->
+		<h3 class="text-center">Tools</h3>
+		<section id="tools" class="row mt-3 mb-3 pb-3 text-center">
+			<div class="col-12 d-flex justify-content-evenly align-items-center">
 
-		<section id="contact" class="container-fluid my-5 py-5">
-			<div>
+				<div class="card h-100 w-25">
+				  <img src="./image/bootstrap.png" class="card-img-top" alt="bootstrap-image">
+				  <div class="card-body">
+				    <a href="https://getbootstrap.com/" target="_blank"><h5 class="card-title">Bootstrap</h5></a>
+				    <p class="card-text"></p>
+				  </div>
+				</div>
 				
+				
+				<div class="card h-100 w-25">
+				  <img src="./image/sublime.png" class="card-img-top" alt="sublime-img">
+				  <div class="card-body">
+				    <a href="https://www.sublimetext.com/" target="_blank"><h5 class="card-title">Sublime</h5></a>
+				    <p class="card-text"></p> 
+				  </div>
+				</div>
+				
+
+				<div class="card h-100 w-25">
+				  <img src="./image/css.png" class="card-img-top" alt="css-Image">
+				  <div class="card-body">
+				    <a href="https://www.w3schools.com/css/default.asp" target="_blank"><h5 class="card-title">CSS</h5></a>
+				    <p class="card-text"></p>
+				  </div>
+				</div>  
 			</div>
 		</section>
+	<!-- Contact Start -->	
+		<div class="row text-center text-dark mt-3 mb-3 p-0">
+			
+			<div class="d-flex col-sm-12 col-md-8 col-xl-4 m-5 p-5 row mx-auto">
+			<h2>Contact Me</h2>
+				<table class="d-flex col-sm-12 col-md-8 col-xl-4">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" placeholder="Your Name">
+					<label for="emailAddress">Email Address</label>
+					<input type="email" name="email" id="emailAddress" placeholder="name@example.com">
+					<label for="contactNumber">Contact Number</label>
+					<input type="phone" name="contact" id="contactNumber" placeholder="+63 900 000 0000">
+					<label>Concern</label>
+					<select>
+						<option>Quotation</option>
+						<option>Appointment</option>
+						<option>Follow-up</option>			
+					</select>
+					<label for="message">Message</label>
+					<textarea name="note" rows="5" id="message"></textarea>
+					<label>
+						<button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="px-3 bg-dark text-light my-3 mx-sm-auto mx-md-auto mx-xl-auto">
+						  Send Email
+						</button>
+						
+							<section id="contact">
+							
+								<h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+								<ul class="list-style-type-none">	
+									<li><a href="mailto:lloyd.pacomo@yahoo.com">lloyd.pacomo@yahoo.com</a></li>
+								</ul>
+							</section>
+							</section>
+						</section>
+	<!-- Contact End -->					
 
-		<section id="tools" class="container-fluid my-5 py-5">
-			<div class="">
-				
-					<img src="./image/bootstrap.png" class="w-25" alt="bootstrap-img">
-					<a href="https://getbootstrap.com/"></a>
-				
-				
-					<img src="./image/sublime.png" class="w-25" alt="sublime-img">
-					<a href="https://www.sublimetext.com/"></a>
-				
-				
-					<img src="./image/css.png" class="w-25" alt="css-img">
-					<a href="https://www.w3schools.com/css/default.asp"></a>
-				
-				
-					<img src="./image/html.png" class="w-25" alt="css-img">
-					<a href="https://www.w3schools.com/css/default.asp"></a>
-				
+
+					</label>
+				</table>
+			<!-- modal first -->
+				<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h1 class="modal-title fs-5 text-dark" id="staticBackdropLabel">Thank you for contacting us!</h1>
+				        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				      </div>
+				      <div class="modal-body text-dark">
+				        Message Successfully Sent!
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			<!-- modal last -->
 			</div>
-		</section>
-		
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		</div>
 
 		<!-- Bootstrap Script -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>

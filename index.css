@@ -20,17 +20,13 @@
 	font-weight: bolder;
 	font-size: large;
 }
-#landing{
-	
+.font-weight-bolder{
+	font-weight: bolder;
 }
-.toolsImage{
-	block-size:20%;
+li{
+	list-style-type: none;
+
 }
-a{
-	display: inline-block;
-	
-}
-div > a > img{
-	height: 300px;
-	width: 300px;
+#contact{
+	text-align-last: right;
 }
